@@ -18,4 +18,6 @@ def read_feather_and_save_copy(path_to_feather, copy_path):
 path_to_feather = "/private/tmp/catalog"
 copy_path = "/private/tmp/decoded_catalog.csv"
 
-read_feather_and_save_copy(path_to_feather, copy_path)
+if __name__ == '__main__':
+    # main program
+    read_feather_and_save_copy(path_to_feather, copy_path)
